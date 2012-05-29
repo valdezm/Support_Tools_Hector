@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/hector-core-1.0-6-SNAPSHOT.jar" sourcepath="C:/Users/Mark Valde/Desktop/hector/core/src"/>
+	<classpathentry kind="lib" path="lib/classes/thrift"/>
+	<classpathentry kind="lib" path="lib/antlr-3.2.jar"/>
+	<classpathentry kind="lib" path="lib/avro-1.4.0-fixes.jar"/>
+	<classpathentry kind="lib" path="lib/avro-1.4.0-sources-fixes.jar"/>
+	<classpathentry kind="lib" path="lib/commons-cli-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="lib/compress-lzf-0.8.4.jar"/>
+	<classpathentry kind="lib" path="lib/concurrentlinkedhashmap-lru-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/cql-internal-only-1.0.10.zip"/>
+	<classpathentry kind="lib" path="lib/guava-r08.jar"/>
+	<classpathentry kind="lib" path="lib/high-scale-lib-1.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-core-asl-1.9.2.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-mapper-asl-1.9.2.jar"/>
+	<classpathentry kind="lib" path="lib/jamm-0.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/jline-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/libthrift-0.7.0.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/metrics-core-2.0.3.jar"/>
+	<classpathentry kind="lib" path="lib/servlet-api-2.5-20081211.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/snakeyaml-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/snappy-java-1.0.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/snaptree-0.1.jar"/>
+	<classpathentry kind="lib" path="lib/thrift-python-internal-only-0.7.0.zip"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
