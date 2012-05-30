@@ -16,6 +16,9 @@ echo Please enter either Y or N - case sens.
 read CASSANDRA_SAME
 
 
+if [ "${SETTING[0]}" == "hector-must-choose-new-ver" ]; then
+	git submodule update --init --recursive
+fi
 
 if [ "$HECTOR_SAME" != "Y" ]; then
 	cd hector
