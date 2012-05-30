@@ -1,0 +1,6 @@
+[submodule "hector"]
+	path = hector
+	url = git://github.com/hector-client/hector.git
+[submodule "cassandra"]
+	path = cassandra
+	url = git://github.com/apache/cassandra.git
