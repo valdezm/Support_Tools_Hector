@@ -19,8 +19,10 @@ read CASSANDRA_SAME
 
 if [ "$HECTOR_SAME" != "Y" ]; then
 	cd hector
-	mvn clean
-	git clean -d -x -f
+	if [ "${SETTING[0]}" != "hector-must-choose-new-ver" ]; then
+		mvn clean
+		git clean -d -x -f
+	fi
 	echo Please choose the Hector client you would like to launch:
 	git tag
 	read LINE;
@@ -32,8 +34,10 @@ fi
 
 if [ "$CASSANDRA_SAME" != "Y" ]; then
 	cd cassandra
-	ant clean
-	git clean -d -x -f
+	if [ "${SETTING[1]}" != "cassandra-must-choose-new-ver" ]; then
+		ant clean	
+		git clean -d -x -f	
+	fi
 	echo Please choose the Cassandra version you would like:
 	git tag
 	read LINE;
