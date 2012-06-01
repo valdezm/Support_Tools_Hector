@@ -82,7 +82,7 @@ if [ "$COMMAND" == "" ]; then
 fi
 echo $SERVER is the server
 echo $CLUSTER is the cluster
-echo $COMMAND is the command
+echo $COMMAND is the operation
 
 javac -cp hector/core/target/*:hector/core/target/classes:cassandra/lib/*:cassandra/build/classes/thrift -d ./bin/ src/HectorRunner.java
 # java -cp ./lib/*:./bin/:./lib/classes/thrift HectorRunner $SERVER $CLUSTER
